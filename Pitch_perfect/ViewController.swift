@@ -13,7 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func recordAudio(_ sender: Any) {
+        print("working my nigga!!")
+        recordLabel.text = "recording in progress"
+    }
+    @IBOutlet weak var recordLabel: UILabel!
+    @IBAction func stopRecording(_ sender: Any) {
+       print("hmmm see if this works")
+    }
+    
 
 }
 
